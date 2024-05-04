@@ -17,6 +17,7 @@
 #include "constants/items.h"
 #include "constants/item_effects.h"
 #include "constants/hold_effects.h"
+#include "data/pokemon/item_effects.h"
 
 static bool8 CheckPyramidBagHasItem(u16 itemId, u16 count);
 static bool8 CheckPyramidBagHasSpace(u16 itemId, u16 count);
@@ -24,9 +25,6 @@ static const u8 *ItemId_GetPluralName(u16);
 static bool32 DoesItemHavePluralName(u16);
 
 EWRAM_DATA struct BagPocket gBagPockets[POCKETS_COUNT] = {0};
-
-#include "data/pokemon/item_effects.h"
-#include "data/items.h"
 
 static u16 GetBagItemQuantity(u16 *quantity)
 {

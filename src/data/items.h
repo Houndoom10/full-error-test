@@ -140,6 +140,1495 @@ static const u8 sGenericMulchDesc[]   = _("A fertilizer that\n"
                                           "is unsuitable for\n"
                                           "local soil.");
 
+static const u8 sTM51Desc[] = _(
+    "A strong punch thrown\n"
+    "with incredible power.");
+
+static const u8 sTM52Desc[] = _(   
+    "Blades of wind hit the\n"
+    "foe on the 2nd turn.\n"
+    "It has a high critical-hit ratio.");
+
+static const u8 sTM53Desc[] = _(   
+    "A fighting dance that\n"
+    "sharply raises ATTACK.");
+
+static const u8 sTM54Desc[] = _(   
+    "Blows away the foe with wind\n"
+    "and ends the battle.");
+
+static const u8 sTM55Desc[] = _(   
+    "An extremely powerful kick\n"
+    "with intense force.");
+
+static const u8 sTM56Desc[] = _(   
+    "A one-hit KO attack that\n"
+    "uses a horn like a drill.");
+
+static const u8 sTM57Desc[] = _(   
+    "A full-body slam\n"
+    "that may cause paralysis.");
+
+static const u8 sTM58Desc[] = _(   
+    "A reckless charge attack\n"
+    "that also hurts the user.");
+
+static const u8 sTM59Desc[] = _(   
+    "A life-risking tackle\n"
+    "that also hurts the user.");
+
+static const u8 sTM60Desc[] = _(   
+    "A spray of bubbles strikes\n"
+    "the foe. It may lower the\n"
+    "SPEED stat of the foe.");
+
+static const u8 sTM61Desc[] = _(   
+    "The foe is hit with a flashing\n"
+    "beam that may also cause confusion.");
+
+static const u8 sTM62Desc[] = _(   
+    "Draws the foe close, then\n"
+    "strikes without fail.");
+
+static const u8 sTM63Desc[] = _(   
+    "A reckless, full-body throw\n"
+    "attack that also hurts the user\n"
+    "a little.");
+
+static const u8 sTM64Desc[] = _(   
+    "Retaliates any physical hit\n"
+    "with double the power.");
+
+static const u8 sTM65Desc[] = _(   
+    "The foe is thrown using the\n"
+    "power of gravity. It inflicts\n"
+    "damage equal to the level of the user.");
+
+static const u8 sTM66Desc[] = _(   
+    "Borrowing the power of the moon,\n"
+    "the user attacks the target. This may\n"
+    "also lower the Sp. Atk stat of the target.");
+
+static const u8 sTM67Desc[] = _(   
+    "An attack that absorbs half\n"
+    "the damage inflicted.");
+
+static const u8 sTM68Desc[] = _(   
+    "The user slashes the foe the\n"
+    "instant an opportunity arises.\n"
+    "It has a high critical-hit ratio.");
+
+static const u8 sTM69Desc[] = _(   
+    "A one-hit KO move that drops\n"
+    "the foe in a fissure.");
+
+static const u8 sTM70Desc[] = _(   
+    "Use it to flee from any wild\n"
+    "POKéMON. Also warps to the last\n"
+    "POKé CENTER.");
+
+static const u8 sTM71Desc[] = _(   
+    "The user attacks by kicking up\n"
+    "into the air and slamming its heel\n"
+    "down upon the target. This may also confuse\n"
+    "the target. If it misses, the user takes damage instead.");
+
+static const u8 sTM72Desc[] = _(   
+    "The user endures attacks for two turns,\n"
+    "then strikes back double.");
+
+static const u8 sTM73Desc[] = _(   
+    "The user waggles a finger and stimulates\n"
+    "the brain into randomly using nearly any move.");
+
+static const u8 sTM74Desc[] = _(   
+    "The user blows up to inflict severe\n"
+    "damage, even making itself faint.");
+
+static const u8 sTM75Desc[] = _(   
+    "The user rampages around spewing\n"
+    "flames for two to three turns. The user\n"
+    "then becomes confused.");
+
+static const u8 sTM76Desc[] = _(   
+    "Star-shaped rays are shot at\n"
+    "the opposing Pokémon. This attack\n"
+    "never misses.");
+
+static const u8 sTM77Desc[] = _(   
+    "The user tucks in its head to raise\n"
+    "its Defense in the first turn, then rams\n"
+    "the foe on the next turn.");
+
+static const u8 sTM78Desc[] = _(   
+    "The user rapidly cools the target.\n"
+    "This may also leave the target frozen.\n"
+    "This move is super effective on Water types.");
+
+static const u8 sTM79Desc[] = _(   
+    "Absorbs half the damage it inflicted\n"
+    "on a sleeping foe to restore HP.");
+
+static const u8 sTM80Desc[] = _(   
+    "A second-turn attack move with a\n"
+    "high critical-hit ratio. It may also make\n"
+    "the target flinch.");
+
+static const u8 sTM81Desc[] = _(  
+    "A weak electric shock that is sure to\n"
+    "cause paralysis if it hits.");
+
+static const u8 sTM82Desc[] = _(   
+    "The target is attacked with an odd\n"
+    "psychic wave. The attack varies in intensity.");
+
+static const u8 sTM83Desc[] = _(   
+    "The user explodes to inflict damage\n"
+    "on all Pokémon in battle. The user faints\n"
+    "upon using this move.");
+
+static const u8 sTM84Desc[] = _(   
+    "Large boulders are hurled at\n"
+    "the foe to inflict damage. It may\n"
+    "also make the target flinch.");
+
+static const u8 sTM85Desc[] = _(   
+    "A simultaneous 3-beam attack that\n"
+    "may paralyze, burn, or freeze the foe.");
+
+static const u8 sTM86Desc[] = _(   
+    "The user creates a decoy using\n"
+    "one-quarter of its full HP.");
+
+static const u8 sTM87Desc[] = _(   
+    "The user punches the target with full,\n"
+    "concentrated power. It confuses the target\n"
+    "if it hits.");
+
+static const u8 sTM88Desc[] = _(   
+    "The user sticks its head out and\n"
+    "rams straight forward. It may make\n"
+    "the foe flinch.");
+
+static const u8 sTM89Desc[] = _(   
+    "A move that has different effects\n"
+    "depending on whether the user is a\n"
+    "Ghost type or not.");
+
+static const u8 sTM90Desc[] = _(   
+    "The user continually rolls into\n"
+    "the foe over five turns. It becomes\n"
+    "stronger each time it hits.");
+
+static const u8 sTM91Desc[] = _(   
+    "The user hypnotizes itself into\n"
+    "copying any stat change made by the foe.");
+
+static const u8 sTM92Desc[] = _(   
+    "Allures the foe to reduce evasiveness.\n"
+    "It also attracts wild POKéMON.");
+
+static const u8 sTM93Desc[] = _(   
+    "This attack can be used only if the\n"
+    "user is asleep. The harsh noise may also\n"
+    "make the target flinch.");
+
+static const u8 sTM94Desc[] = _(   
+    "A chilling wind is used to attack.\n"
+    "It also lowers the SPEED stat.");
+
+static const u8 sTM95Desc[] = _(   
+    "Endures any attack for 1 turn,\n"
+    "leaving at least 1HP.");
+
+static const u8 sTM96Desc[] = _(   
+    "The foe is hit with an incredible\n"
+    "blast of breath that may also paralyze.");
+
+static const u8 sTM97Desc[] = _(   
+    "Hurls mud in the foes face to\n"
+    "reduce its accuracy.");
+
+static const u8 sTM98Desc[] = _(   
+    "An icy punch that may freeze\n"
+    "the foe.");
+
+static const u8 sTM99Desc[] = _(   
+    "Confuses the foe, but also sharply\n"
+    "raises ATTACK.");
+
+static const u8 sTM100Desc[] = _(   
+    "While asleep, the user randomly uses\n"
+    "one of the moves it knows.");
+
+static const u8 sTM101Desc[] = _(
+    "Curls up to conceal weak spots\n"
+    "and raise DEFENSE.");
+
+static const u8 sTM102Desc[] = _(
+    "An electrified punch that may\n"
+    "paralyze the foe.");
+
+static const u8 sTM103Desc[] = _(
+    "Evades attack, but may fail if\n"
+    "used in succession.");
+
+static const u8 sTM104Desc[] = _(
+    "A fiery punch that may\n"
+    "burn the foe.");
+
+static const u8 sTM105Desc[] = _(
+    "An attack that grows stronger\n"
+    "on each successive hit.");
+
+static const u8 sTM106Desc[] = _(
+    "The user lands and rests its body.\n"
+    "It restores the users HP by up to half\n"
+    "of its max HP.");
+
+static const u8 sTM107Desc[] = _(
+    "The user heightens its mental focus\n"
+    "and unleashes its power. It may also lower\n"
+    "the targets Sp. Def.");
+
+static const u8 sTM108Desc[] = _(
+    "The user draws power from nature\n"
+    "and fires it at the foe. It may also\n"
+    "lower the targets Sp. Def.");
+
+static const u8 sTM109Desc[] = _(
+    "An attack that leaves the foe\n"
+    "with at least 1 HP.");
+
+static const u8 sTM110Desc[] = _(
+    "If the foes HP is down to about half,\n"
+    "this attack will hit with double the power.");
+
+static const u8 sTM111Desc[] = _(
+    "The user fires a concentrated bundle of\n"
+    "electricity. It may also raise the users\n"
+    "Sp. Atk stat.");
+
+static const u8 sTM112Desc[] = _(
+    "The foe is attacked with a shock wave\n"
+    "generated by the users gaping mouth.");
+
+static const u8 sTM113Desc[] = _(
+    "An energy-draining punch. The\n"
+    "users HP is restored by half the damage\n"
+    "taken by the target.");
+
+static const u8 sTM114Desc[] = _(
+    "A sinister, bluish white flame is\n"
+    "shot at the foe to inflict a burn.");
+
+static const u8 sTM115Desc[] = _(
+    "The foe is attacked with a silver dust.\n"
+    "It may raise all the users stats.");
+
+static const u8 sTM116Desc[] = _(
+    "It prevents the foe from using its held item.\n"
+    "Its Trainer is also prevented from using items on it.");
+
+static const u8 sTM117Desc[] = _(
+    "The user slashes with a sharp\n"
+    "claw made from shadows. It has a\n"
+    "high critical-hit ratio.");
+
+static const u8 sTM118Desc[] = _(
+    "If the user can use this attack after\n"
+    "the foe attacks, its power is doubled.");
+
+static const u8 sTM119Desc[] = _(
+    "A move that recycles a used item\n"
+    "for use once more.");
+
+static const u8 sTM120Desc[] = _(
+    "The user charges at the foe using\n"
+    "every bit of its power. The user must\n"
+    "rest on the next turn.");
+
+static const u8 sTM121Desc[] = _(
+    "The user polishes its body to reduce drag.\n"
+    "It can sharply raise the Speed stat.");
+
+static const u8 sTM122Desc[] = _(
+    "The user stabs the foe with a\n"
+    "sharpened stone. It has a high\n"
+    "critical-hit ratio.");
+
+static const u8 sTM123Desc[] = _(
+    "An attack move that inflicts double\n"
+    "the damage if the user has been hurt by\n"
+    "the foe in the same turn.");
+
+static const u8 sTM124Desc[] = _(
+    "The user tackles the foe with a\n"
+    "high-speed spin. The slower the user,\n"
+    "the greater the damage.");
+
+static const u8 sTM125Desc[] = _(
+    "The user lays a trap of levitating\n"
+    "stones around the foe. The trap hurts\n"
+    "foes that switch into battle.");
+
+static const u8 sTM126Desc[] = _(
+    "If it is the opposite gender of\n"
+    "the user, the foe is charmed into sharply\n"
+    "lowering its Sp. Atk stat.");
+
+static const u8 sTM127Desc[] = _(
+    "The user releases a horrible aura\n"
+    "imbued with dark thoughts. It may also\n"
+    "make the target flinch.");
+
+static const u8 sTM128Desc[] = _(
+    "The user slashes at the foe by\n"
+    "crossing its scythes or claws as if\n"
+    "they were a pair of scissors.");
+
+static const u8 sTM129Desc[] = _(
+    "The user draws power to attack\n"
+    "by using its held Berry. The Berry\n"
+    "determines its type and power.");
+
+static const u8 sTM130Desc[] = _(
+    "The foe is stabbed with a tentacle\n"
+    "or arm steeped in poison. It may also\n"
+    "poison the foe.");
+
+static const u8 sTM131Desc[] = _(
+    "The user snares the foe with grass\n"
+    "and trips it. The heavier the foe,\n"
+    "the greater the damage.");
+
+static const u8 sTM132Desc[] = _(
+    "The user pecks the target. If the target\n"
+    "is holding a Berry, the user eats it and\n"
+    "gains its effect.");
+
+static const u8 sTM133Desc[] = _(
+    "After making its attack, the user\n"
+    "rushes back to switch places with a\n"
+    "party Pokémon in waiting.");
+
+static const u8 sTM134Desc[] = _(
+    "The user gathers all its light energy\n"
+    "and releases it at once. It may also lower\n"
+    "the foes Sp. Def stat.");
+
+static const u8 sTM135Desc[] = _(
+    "The user creates a bizarre area\n"
+    "in which slower Pokémon get to move\n"
+    "first for five turns.");
+
+static const u8 sTM136Desc[] = _(
+    "The user sharpens its claws to boost\n"
+    "its Attack stat and accuracy.");
+
+static const u8 sTM137Desc[] = _(
+    "The user materializes an odd psychic\n"
+    "wave to attack the target. This attack does\n"
+    "physical damage.");
+
+static const u8 sTM138Desc[] = _(
+    "The user drenches the target in a\n"
+    "special poisonous liquid. Its power is\n"
+    "doubled if the target is poisoned.");
+
+static const u8 sTM139Desc[] = _(
+    "The user makes the target float\n"
+    "with its psychic power. The target is\n"
+    "easier to hit for three turns.");
+
+static const u8 sTM140Desc[] = _(
+    "The user throws a stone or projectile\n"
+    "to attack an opponent. A flying Pokémon\n"
+    "will fall to the ground when hit.");
+
+static const u8 sTM141Desc[] = _(
+    "It swamps the area around the user\n"
+    "with a giant sludge wave. It may also\n"
+    "poison those hit.");
+
+static const u8 sTM142Desc[] = _(
+    "The user cloaks itself with flame\n"
+    "and attacks. Building up more power,\n"
+    "it raises the users Speed stat.");
+
+static const u8 sTM143Desc[] = _(
+    "The user attacks the targets legs swiftly,\n"
+    "reducing the targets Speed stat.");
+
+static const u8 sTM144Desc[] = _(
+    "The user attacks the target with a song.\n"
+    "Others can join in the Round and make the\n"
+    "attack do greater damage.");
+
+static const u8 sTM145Desc[] = _(
+    "The user attacks the target with an\n"
+    "echoing voice. If this move is used every turn,\n"
+    "it does greater damage.");
+
+static const u8 sTM146Desc[] = _(
+    "The user teleports using a strange power\n"
+    "and switches its place with one of its allies.");
+
+static const u8 sTM147Desc[] = _(
+    "The user shoots boiling hot water\n"
+    "at its target. It may also leave the\n"
+    "target with a burn.");
+
+static const u8 sTM148Desc[] = _(
+    "The user flings its held item at\n"
+    "the foe to attack. Its power and effects\n"
+    "depend on the item.");
+
+static const u8 sTM149Desc[] = _(
+    "The user takes the target into\n"
+    "the sky, then drops it during the\n"
+    "next turn. The target cannot attack\n"
+    "while in the sky.");
+
+static const u8 sTM150Desc[] = _(
+    "The user attacks the target with fire.\n"
+    "If the target is holding a Berry,\n"
+    "the Berry becomes burnt up and unusable.");
+
+static const u8 sTM151Desc[] = _(   
+    "The user suppresses the target\n"
+    "and makes its move go last.");
+
+static const u8 sTM152Desc[] = _(   
+    "The user nimbly strikes the target.\n"
+    "If the user is not holding an item,\n"
+    "this attack inflicts massive damage.");
+
+static const u8 sTM153Desc[] = _(   
+    "The user gets revenge for a fainted ally.\n"
+    "If an ally fainted in the previous turn,\n"
+    "this attacks damage increases.");
+
+static const u8 sTM154Desc[] = _(   
+    "After making its attack, the user\n"
+    "rushes back to switch places with a\n"
+    "party Pokémon in waiting.");
+
+static const u8 sTM155Desc[] = _(   
+    "While resisting, the user attacks\n"
+    "the opposing Pokémon. The targets\n"
+    "Sp. Atk stat is reduced.");
+
+static const u8 sTM156Desc[] = _(   
+    "The user stomps down on the ground and\n"
+    "attacks everything in the area. Hit Pokémons\n"
+    "Speed stat is reduced.");
+
+static const u8 sTM157Desc[] = _(   
+    "The user blows a cold breath on\n"
+    "the target. This attack always\n"
+    "results in a critical hit.");
+
+static const u8 sTM158Desc[] = _(   
+    "The user knocks away the target and\n"
+    "drags out another Pokémon in its party.\n"
+    "In the wild, the battle ends.");
+
+static const u8 sTM159Desc[] = _(   
+    "The user is roused, and its Attack\n"
+    "and Sp. Atk stats increase.");
+
+static const u8 sTM160Desc[] = _(   
+    "The user shrouds itself in electricity\n"
+    "and smashes into its target. It also damages\n"
+    "the user a little.");
+
+static const u8 sTM161Desc[] = _(   
+    "The user yells as if it is ranting\n"
+    "about something, making the targets\n"
+    "Sp. Atk stat decrease.");
+
+static const u8 sTM162Desc[] = _(   
+    "The target is infested and attacked\n"
+    "for four to five turns. The target cant\n"
+    "flee during this time.");
+
+static const u8 sTM163Desc[] = _(   
+    "Striking opponents over and over\n"
+    "makes the users fists harder. Hitting\n"
+    "a target raises the Attack stat.");
+
+static const u8 sTM164Desc[] = _(   
+    "The user damages opposing Pokémon\n"
+    "by emitting a powerful flash.");
+
+static const u8 sTM165Desc[] = _(   
+    "The user tells the target a secret,\n"
+    "and the target loses its ability to concentrate.\n"
+    "This lowers the targets Sp. Atk stat.");
+
+static const u8 sTM166Desc[] = _(   
+    "An attack that absorbs half the\n"
+    "damage it inflicted to restore HP.");
+
+static const u8 sTM167Desc[] = _(   
+    "The user stabs the target with a\n"
+    "sharp horn. This attack never misses.");
+
+static const u8 sTM168Desc[] = _(   
+    "This move reduces damage from physical\n"
+    "and special moves for five turns.\n"
+    "This can be used only in hail or snow.");
+
+static const u8 sTM169Desc[] = _(   
+    "A move that boosts the power of the\n"
+    "allys attack in a battle.");
+
+static const u8 sTM170Desc[] = _(   
+    "The user thrashes about for two\n"
+    "to three turns, then becomes confused.");
+
+static const u8 sTM171Desc[] = _(   
+    "The user plays rough with the target\n"
+    "and attacks it. This may also lower the\n"
+    "targets Attack stat.");
+
+static const u8 sTM172Desc[] = _(   
+    "The user attacks the foe with\n"
+    "great power. However, it also lowers\n"
+    "the users Attack and Defense.");
+
+static const u8 sTM173Desc[] = _(   
+    "The user crashes into its target\n"
+    "while rotating its body like a drill.\n"
+    "Critical hits land more easily.");
+
+static const u8 sTM174Desc[] = _(   
+    "A brutal ramming attack delivered\n"
+    "with a tough and impressive horn.");
+
+static const u8 sTM175Desc[] = _(   
+    "Sharp pins are shot at the foe in\n"
+    "rapid succession. They hit\n"
+    "two to five times in a row.");
+
+static const u8 sTM176Desc[] = _(   
+    "The foe is attacked with a\n"
+    "strange leaf that cannot be evaded");
+
+static const u8 sTM177Desc[] = _(   
+    "The foe is trapped in an intense\n"
+    "spiral of fire that rages\n"
+    "two to five turns.");
+
+static const u8 sTM178Desc[] = _(   
+    "An ear-splitting screech is emitted\n"
+    "to sharply reduce the foes DEFENSE.");
+
+static const u8 sTM179Desc[] = _(   
+    "Frightens the foe with a scary face\n"
+    "to sharply reduce its SPEED.");
+
+static const u8 sTM180Desc[] = _(   
+    "Charms the foe and sharply\n"
+    "reduces its ATTACK.");
+
+static const u8 sTM181Desc[] = _(   
+    "The foe is trapped in a fast, vicious\n"
+    "whirlpool for two to five turns");
+
+static const u8 sTM182Desc[] = _(   
+    "All party POKéMON join in the attack.\n"
+    "The more allies, the more damage.");
+
+static const u8 sTM183Desc[] = _(   
+    "An attack move that inflicts double\n"
+    "the damage if the user has been hurt\n"
+    "by the foe in the same turn.");
+
+static const u8 sTM184Desc[] = _(   
+    "revents foes from using moves\n"
+    "known by the user.");
+
+static const u8 sTM185Desc[] = _(   
+    "An attack that varies in power\n"
+    "and type depending on the weather.");
+
+static const u8 sTM186Desc[] = _(   
+    "The user feigns crying to make the\n"
+    "foe feel flustered, sharply lowering its\n"
+    "Sp. Def stat.");
+
+static const u8 sTM187Desc[] = _(   
+    "The foe is trapped inside a\n"
+    "painful sandstorm for\n"
+    "two to five turns.");
+
+static const u8 sTM188Desc[] = _(   
+    "Sharp icicles are fired at the foe.\n"
+    "It strikes two to five times.");
+
+static const u8 sTM189Desc[] = _(   
+    "The user bounces up high, then drops\n"
+    "on the foe on the second turn. It may\n"
+    "also paralyze the foe.");
+
+static const u8 sTM190Desc[] = _(   
+    "The user attacks by hurling a blob\n"
+    "of mud at the foe. It also reduces the\n"
+    "targets Speed.");
+
+static const u8 sTM191Desc[] = _(   
+    "The user hurls hard rocks at the foe.\n"
+    "Two to five rocks are launched in quick\n"
+    "succession.");
+
+static const u8 sTM192Desc[] = _(   
+    "If the foe has already taken some\n"
+    "damage in the same turn, this attacks\n"
+    "power is doubled.");
+
+static const u8 sTM193Desc[] = _(   
+    "The user employs its psychic power\n"
+    "to switch changes to its Attack and\n"
+    "Sp. Atk with the foe.");
+
+static const u8 sTM194Desc[] = _(   
+    "The user employs its psychic power\n"
+    "to switch changes to its Defense and\n"
+    "Sp. Def with the foe.");
+
+static const u8 sTM195Desc[] = _(   
+    "The user exchanges Speed stats\n"
+    "with the target.");
+
+static const u8 sTM196Desc[] = _(   
+    "The user bites with flame-cloaked fangs.\n"
+    "It may also make the foe flinch or sustain a burn.");
+
+static const u8 sTM197Desc[] = _(   
+    "The user bites with cold-infused fangs.\n"
+    "It may also make the foe flinch or freeze.");
+
+static const u8 sTM198Desc[] = _(   
+    "The user bites with electrified fangs.\n"
+    "It may also make the foe flinch or become paralyzed.");
+
+static const u8 sTM199Desc[] = _(   
+    "The user tears at the foe with blades\n"
+    "formed by psychic power. It has a high\n"
+    "critical-hit ratio.");
+
+static const u8 sTM200Desc[] = _(   
+    "The user creates a bizarre area\n"
+    "in which Pokémon’s Defense and Sp. Def\n"
+    "stats are swapped for five turns.");
+static const u8 sTM201Desc[] = _(
+    "The user creates a bizarre area\n"
+    "in which Pokémon’s held items lose\n"
+    "effects for five turns.");
+
+static const u8 sTM202Desc[] = _(
+    "A slashing attack with a poisonous\n"
+    "blade that may also leave the target\n"
+    "poisoned. Critical hits land more easily.");
+
+static const u8 sTM203Desc[] = _(
+    "This relentless attack does\n"
+    "massive damage to a target\n"
+    "affected by status problems.");
+
+static const u8 sTM204Desc[] = _(
+    "The user captures and attacks\n"
+    "opposing Pokémon by using an\n"
+    "electric net. It reduces the\n"
+    "targets Speed stat.");
+
+static const u8 sTM205Desc[] = _(
+    "The user cuts its target with\n"
+    "sharp shells. This attack may\n"
+    "also lower the targets Defense stat.");
+
+static const u8 sTM206Desc[] = _(
+    "The user attacks by striking\n"
+    "the target with its hard tail.\n"
+    "It hits the target two to five\n"
+    "times in a row.");
+
+static const u8 sTM207Desc[] = _(
+    "The user vanishes somewhere,\n"
+    "then strikes the target on the\n"
+    "next turn. This move hits even if\n"
+    "the target protects itself.");
+
+static const u8 sTM208Desc[] = _(
+    "The user steals the targets energy\n"
+    "with a kiss. The users HP is restored\n"
+    "by over half of the damage taken by the\n"
+    "target.");
+
+static const u8 sTM209Desc[] = _(
+    "The user turns the ground under\n"
+    "everyones feet to grass for five\n"
+    "turns. This restores the HP of Pokémon\n"
+    "on the ground a little every turn.");
+
+static const u8 sTM210Desc[] = _(
+    "The user covers the ground under\n"
+    "everyones feet with mist for five\n"
+    "turns. This protects Pokémon on the\n"
+    "ground from status conditions.");
+
+static const u8 sTM211Desc[] = _(
+    "The user electrifies the ground under\n"
+    "everyones feet for five turns.\n"
+    "Pokémon on the ground no longer\n"
+    "fall asleep.");
+
+static const u8 sTM212Desc[] = _(
+    "This protects Pokémon on the ground\n"
+    "from priority moves and powers up\n"
+    "Psychic-type moves for five turns.");
+
+static const u8 sTM213Desc[] = _(
+    "The user attacks by breathing a\n"
+    "special, hot fire. This also lowers\n"
+    "the targets Sp. Atk stat.");
+
+static const u8 sTM214Desc[] = _(
+    "The users body generates an eerie\n"
+    "impulse. Exposing the target to it harshly\n"
+    "lowers the targets Sp. Atk stat.");
+
+static const u8 sTM215Desc[] = _(
+    "The user attacks with a blade\n"
+    "of air that slices even the sky.\n"
+    "It may also make the target flinch.");
+
+static const u8 sTM216Desc[] = _(
+    "The user swings its body around\n"
+    "violently to inflict damage on\n"
+    "everything in its vicinity.");
+
+static const u8 sTM217Desc[] = _(
+    "Driven by frustration, the user\n"
+    "attacks the target. If the users\n"
+    "previous move has failed, the power\n"
+    "of this move doubles.");
+
+static const u8 sTM218Desc[] = _(
+    "The user swings its tough tail\n"
+    "wildly and attacks opposing Pokémon.\n"
+    "This also lowers their Attack stats.");
+
+static const u8 sTM219Desc[] = _(
+    "A high volume of water is blasted\n"
+    "at the foe under great pressure.");
+
+static const u8 sTM220Desc[] = _(
+    "A low, tripping kick that inflicts\n"
+    "more damage on heavier foes.");
+
+static const u8 sTM221Desc[] = _(
+    "The user relaxes and lightens its\n"
+    "body to sharply boost its SPEED.");
+
+static const u8 sTM222Desc[] = _(
+    "The user takes a deep breath and\n"
+    "focuses to raise its critical-hit ratio.");
+
+static const u8 sTM223Desc[] = _(
+    "The user temporarily empties its\n"
+    "mind to forget its concerns. It sharply\n"
+    "raises the users Sp. Def stat.");
+
+static const u8 sTM224Desc[] = _(
+    "An all-out attack that becomes\n"
+    "more powerful the less HP the user has.");
+
+static const u8 sTM225Desc[] = _(
+    "A trap of spikes is laid around\n"
+    "the foes party to hurt foes\n"
+    "switching in.");
+
+static const u8 sTM226Desc[] = _(
+    "The user switches places with a\n"
+    "party Pokémon in waiting, passing\n"
+    "along any stat changes.");
+
+static const u8 sTM227Desc[] = _(
+    "The user compels the foe to keep\n"
+    "using only the move it last used\n"
+    "for two to six turns.");
+
+static const u8 sTM228Desc[] = _(
+    "The user crunches up the foe with\n"
+    "sharp fangs. It may also lower the\n"
+    "targets Defense stat.");
+
+static const u8 sTM229Desc[] = _(
+    "Two turns after this move is used,\n"
+    "the foe is attacked with a hunk of\n"
+    "psychic energy.");
+
+static const u8 sTM230Desc[] = _(
+    "The user attacks by exhaling\n"
+    "hot breath on the opposing Pokémon.\n"
+    "This may also leave those Pokémon with\n"
+    "a burn.");
+
+static const u8 sTM231Desc[] = _(
+    "A move that tricks the foe into\n"
+    "trading held items with the user.");
+
+static const u8 sTM232Desc[] = _(
+    "A fiery kick with a high critical-hit\n"
+    "ratio. It may also burn the foe.");
+
+static const u8 sTM233Desc[] = _(
+    "The user lets loose a horribly\n"
+    "loud shout with the power to damage.");
+
+static const u8 sTM234Desc[] = _(
+    "The user absorbs a mystical power\n"
+    "from space to raise its Defense\n"
+    "and Sp. Def stats.");
+
+static const u8 sTM235Desc[] = _(
+    "The user attacks with muddy water.\n"
+    "It may also lower the foes accuracy.");
+
+static const u8 sTM236Desc[] = _(
+    "The user hardens its bodys surface\n"
+    "like iron, sharply raising its Defense\n"
+    "stat.");
+
+static const u8 sTM237Desc[] = _(
+    "The foe is slashed with a sharp\n"
+    "eaf. It has a high critical-hit ratio.");
+
+static const u8 sTM238Desc[] = _(
+    "The user vigorously performs a\n"
+    "mystic, powerful dance that\n"
+    "boosts its Attack and Speed stats.");
+
+static const u8 sTM239Desc[] = _(
+    "The user fights the foe up close\n"
+    "without guarding itself. It also\n"
+    "cuts the users Defense and Sp. Def.");
+
+static const u8 sTM240Desc[] = _(
+    "The user lays a trap of poison\n"
+    "spikes at the opponents feet.\n"
+    "They poison opponents that switch\n"
+    "into battle.");
+
+static const u8 sTM241Desc[] = _(
+    "The user cloaks itself in fire\n"
+    "and charges at the target. The\n"
+    "user sustains serious damage and\n"
+    "may leave the target burned.");
+
+static const u8 sTM242Desc[] = _(
+    "The user lets loose a blast of\n"
+    "aura power from deep within its\n"
+    "body at the target. This attack\n"
+    "never misses.");
+
+static const u8 sTM243Desc[] = _(
+    "The user slams a barrage of hard-shelled\n"
+    "seeds down on the target from above.");
+
+static const u8 sTM244Desc[] = _(
+    "The user vibrates its wings to\n"
+    "generate a damaging sound wave.\n"
+    "It may also lower the targets\n"
+    "Sp. Def stat.");
+
+static const u8 sTM245Desc[] = _(
+    "The user attacks with a ray of\n"
+    "light that sparkles as if it were\n"
+    "made of gemstones.");
+
+static const u8 sTM246Desc[] = _(
+    "The user tucks in its wings and\n"
+    "charges from a low altitude.\n"
+    "The user also takes serious damage.");
+
+static const u8 sTM247Desc[] = _(
+    "The user makes the ground under\n"
+    "the foe erupt with power. It may\n"
+    "also lower the targets Sp. Def.");
+
+static const u8 sTM248Desc[] = _(
+    "The user stimulates its brain\n"
+    "by thinking bad thoughts. It\n"
+    "sharply raises the users Sp. Atk.");
+
+static const u8 sTM249Desc[] = _(
+    "The user focuses its willpower\n"
+    "to its head and rams the foe.\n"
+    "It may also make the target flinch.");
+
+static const u8 sTM250Desc[] = _(
+    "The user whips up a storm of\n"
+    "leaves around the target. The\n"
+    "attacks recoil harshly reduces\n"
+    "the users Sp. Atk stat.");
+
+static const u8 sTM251Desc[] = _(   
+    "The user violently whirls its\n"
+    "vines, tentacles, or the like\n"
+    "to harshly lash the target.");
+
+static const u8 sTM252Desc[] = _(   
+    "The user shoots filthy garbage\n"
+    "at the target to attack. It may \n"
+    "also poison the target.");
+
+static const u8 sTM253Desc[] = _(   
+    "he user slams the target with\n"
+    "its steel-hard head. This may\n"
+    "also make the target flinch.");
+
+static const u8 sTM254Desc[] = _(   
+    "The user slams into the target\n"
+    "with its heavy body. The more\n"
+    "the user outweighs the target,\n"
+    "the greater its damage.");
+
+static const u8 sTM255Desc[] = _(   
+    "The user hurls an electric orb\n"
+    "at the target. The faster the\n"
+    "user is than the target, the\n"
+    "greater the damage.");
+
+static const u8 sTM256Desc[] = _(   
+    "The user turns the targets power\n"
+    "against it. The higher the targets\n"
+    "Attack stat, the greater the damage.");
+
+static const u8 sTM257Desc[] = _(   
+    "The user attacks the target with\n"
+    "stored power. The more the users\n"
+    "stats are raised, the greater the damage.");
+
+static const u8 sTM258Desc[] = _(   
+    "The user slams its target with\n"
+    "its flame-covered body. The more\n"
+    "the user outweighs the target,\n"
+    "the greater the damage.");
+
+static const u8 sTM259Desc[] = _(   
+    "The user attacks by wrapping\n"
+    "its opponent in a fierce wind\n"
+    "that flies up into the sky. It\n"
+    "may also confuse the target.");
+
+static const u8 sTM260Desc[] = _(   
+    "This attack inflicts high damage\n"
+    "on a sleeping foe. It also wakes\n"
+    "the foe up, however.");
+
+static const u8 sTM261Desc[] = _(   
+    "Opposing Pokémon are drenched\n"
+    "in an odd poisonous liquid. This\n"
+    "lowers the Attack, Sp. Atk, and\n"
+    "Speed stats of a poisoned target.");
+
+static const u8 sTM262Desc[] = _(   
+    "The user swings both arms and\n"
+    "hits the target. The targets\n"
+    "stat changes dont affect this\n"
+    "attacks damage.");
+
+static const u8 sTM263Desc[] = _(   
+    "The user fiercely attacks the\n"
+    "target using its entire body.");
+
+static const u8 sTM264Desc[] = _(   
+    "The user attacks the targets\n"
+    "throat, and the resultant\n"
+    "suffering prevents the target\n"
+    "from using sound-based moves\n"
+    "for two turns.");
+
+static const u8 sTM265Desc[] = _(   
+    "The user attacks the enemy with\n"
+    "a pollen puff that explodes. If\n"
+    "the target is an ally, it gives\n"
+    "the ally a pollen puff that restores\n"
+    "its HP instead.");
+
+static const u8 sTM266Desc[] = _(   
+    "The user bites the target with\n"
+    "its psychic capabilities. This\n"
+    "can also destroy Light Screen\n"
+    "and Reflect.");
+
+static const u8 sTM267Desc[] = _(   
+    "The user slams into the target\n"
+    "using a full-force blast of water.\n"
+    "This may also lower the targets\n"
+    "Defense stat.");
+
+static const u8 sTM268Desc[] = _(   
+    "The user attacks by slamming\n"
+    "its body into the target. The\n"
+    "higher the users Defense stat,\n"
+    "the greater the damage this move deals.");
+
+static const u8 sTM269Desc[] = _(   
+    "The user spits fluid that works\n"
+    "to melt the target. This harshly\n"
+    "reduces the targets Sp. Def stat.");
+
+static const u8 sTM270Desc[] = _(   
+    "A peculiar ray is shot at the foe.\n"
+    "It may leave the foe confused.");
+
+static const u8 sTM271Desc[] = _(   
+    "The foe is exposed to a sinister\n"
+    "ray that triggers confusion.");
+
+static const u8 sTM272Desc[] = _(   
+    "Letting out a charming cry, the\n"
+    "user does emotional damage to\n"
+    "opposing Pokémon. This attack\n"
+    "never misses.");
+
+static const u8 sTM273Desc[] = _(   
+    "The user attacks suddenly as if\n"
+    "leaping out from tall grass. The\n"
+    "users nimble footwork boosts its Speed stat.");
+
+static const u8 sTM274Desc[] = _(   
+    "The user attacks by pouncing on the\n"
+    "target. This also lowers the targets Speed stat.");
+
+static const u8 sTM275Desc[] = _(   
+    "The user attacks the target by\n"
+    "showering it with water thats so\n"
+    "cold it saps the targets power.\n"
+    "This also lowers the targets Attack stat.");
+
+static const u8 sTM276Desc[] = _(   
+    "An attack with a high critical-hit\n"
+    "ratio. This tail attack may also\n"
+    "poison the foe.");
+
+static const u8 sTM277Desc[] = _(   
+    "The foe is attacked with steel\n"
+    "claws. It may also raise\n"
+    "the users ATTACK.");
+
+static const u8 sTM278Desc[] = _(   
+    "The user launches razor-like wind\n"
+    "to slash the opposing team.\n"
+    "Critical hits land more easily.");
+
+static const u8 sTM279Desc[] = _(   
+    "The user attacks its target by\n"
+    "hitting it with brutal strikes.\n"
+    "The target is hit twice in a row.");
+
+static const u8 sTM280Desc[] = _(   
+    "The user summons a snowstorm\n"
+    "lasting five turns. This boosts\n"
+    "the Defense stats of Ice types.");
+
+static const u8 sTM281Desc[] = _(   
+    "The user covers its feet in thin\n"
+    "ice and twirls around, slamming into\n"
+    "the target. This moves spinning motion\n"
+    "also destroys the terrain.");
+
+static const u8 sTM282Desc[] = _(   
+    "A column of fire hits opposing Pokémon.\n"
+    "When used with its Grass or Water equivalent,\n"
+    "something unique happens");
+
+static const u8 sTM283Desc[] = _(   
+    "A column of water hits opposing Pokémon.\n"
+    "When used with its Grass or Fire equivalent,\n"
+    "something unique happens");
+
+static const u8 sTM284Desc[] = _(   
+    "A column of grass hits opposing Pokémon.\n"
+    "When used with its Fire or Water equivalent,\n"
+    "something unique happens");
+
+static const u8 sTM285Desc[] = _(   
+    "The target is razed by a fiery\n"
+    "explosion. The user must rest on\n"
+    "the next turn, however.");
+
+static const u8 sTM286Desc[] = _(   
+    "The target is hit with a watery\n"
+    "blast. The user must rest on the\n"
+    "next turn, however.");
+
+static const u8 sTM287Desc[] = _(   
+    "The user slams the target with an\n"
+    "enormous tree. The user must rest\n"
+    "on the next turn, however.");
+
+static const u8 sTM288Desc[] = _(   
+    "Comets are summoned down from\n"
+    "the sky. The attacks recoil sharply\n"
+    "reduces the users Sp. Atk stat.");
+
+static const u8 sTM289Desc[] = _(   
+    "The user fires a beam of steel\n"
+    "that it collected from its entire\n"
+    "body. This also damages the user.");
+
+static const u8 sTM290Desc[] = _(   
+    "If the user has Terastallized,\n"
+    "it unleashes energy of its Tera Type.\n"
+    "This move inflicts damage using the\n"
+    "Attack or Sp. Atk stat whichever is\n"
+    "higher for the user.");
+
+static const u8 sTM291Desc[] = _(   
+    "The user boosts the power of the\n"
+    "Electric move it uses next. It also\n"
+    "raises the users Sp. Def stat.");
+
+static const u8 sTM292Desc[] = _(   
+    "A blindingly speedy charge attack\n"
+    "that always goes before any other.");
+
+static const u8 sTM293Desc[] = _(   
+    "This move enables Flying-type\n"
+    "Pokémon or Pokémon with the\n"
+    "Levitate Ability to be hit by\n"
+    "Ground-type moves. Moves that\n"
+    "involve flying can not be used.");
+
+static const u8 sTM294Desc[] = _(   
+    "The user slaps down the foes\n"
+    "held item, preventing the item\n"
+    "from being used during the battle.");
+
+static const u8 sTM295Desc[] = _(   
+    "The user bites the target. If the\n"
+    "target is holding a Berry, the user\n"
+    "eats it and gains its effect.");
+
+static const u8 sTM296Desc[] = _(   
+    "The user chomps hard on the foe\n"
+    "with its sharp front fangs. It cuts\n"
+    "the targets HP to half.");
+
+static const u8 sTM297Desc[] = _(   
+    "The user whirls its fists to send\n"
+    "a wave of pure vacuum at the target.\n"
+    "This move always goes first.");
+
+static const u8 sTM298Desc[] = _(   
+    "The user makes a lunge at the\n"
+    "target, attacking with full force.\n"
+    "This also lowers the targets Attack stat.");
+
+static const u8 sTM299Desc[] = _(   
+    "The user gathers light on the\n"
+    "first turn, then fills a blade\n"
+    "with the light energy and attacks\n"
+    "on the next turn.");
+
+static const u8 sTM300Desc[] = _(   
+    "The user attacks in an uproar\n"
+    "for two to five turns. Over that\n"
+    "time, no one can fall asleep.");
+
+static const u8 sTM301Desc[] = _(
+    "Gliding on the ground, the user\n"
+    "attacks the target. This move always\n"
+    "goes first on Grassy Terrain.");
+
+static const u8 sTM302Desc[] = _(
+    "The user attacks with energy\n"
+    "from jealousy. This leaves all\n"
+    "opposing Pokémon that have had\n"
+    "their stats boosted during the\n"
+    "turn with a burn.");
+
+static const u8 sTM303Desc[] = _(
+    "After making its attack, the user\n"
+    "rushes back to switch places with a\n"
+    "party Pokémon in waiting.");
+
+static const u8 sTM304Desc[] = _(
+    "The user slams the target with\n"
+    "its wings to inflict damage. The\n"
+    "target is hit twice in a row.");
+
+static const u8 sTM305Desc[] = _(
+    "The user attacks by controlling\n"
+    "the targets item. This move fails\n"
+    "if the target isnt holding an item.");
+
+static const u8 sTM306Desc[] = _(
+    "The user lashes out to vent its\n"
+    "frustration toward the target.\n"
+    "This moves power is doubled if\n"
+    "the users stats were lowered\n"
+    "during this turn.");
+
+static const u8 sTM307Desc[] = _(
+    "The user attacks by shooting\n"
+    "scales two to five times in a row.\n"
+    "This move boosts the users Speed stat\n"
+    "but lowers its Defense stat.");
+
+static const u8 sTM308Desc[] = _(
+    "The user attacks everything around\n"
+    "it and faints upon using this move.\n"
+    "This moves power is boosted on Misty Terrain.");
+
+static const u8 sTM309Desc[] = _(
+    "The user adds its HP to the foes\n"
+    "HP, then equally shares the total HP.");
+
+static const u8 sTM310Desc[] = _(
+    "This attack move cuts down the\n"
+    "targets HP to equal the users HP.");
+
+static const u8 sTM311Desc[] = _(
+    "The user stirs up a violent\n"
+    "petal blizzard and attacks\n"
+    "everything around it.");
+
+static const u8 sTM312Desc[] = _(
+    "Spurred by desperation, the user\n"
+    "attacks the target. This moves power\n"
+    "is doubled if the users previous move failed.");
+
+static const u8 sTM313Desc[] = _(
+    "The user electrifies its body\n"
+    "and drops onto the target to\n"
+    "inflict damage. If this move misses,\n"
+    "the user takes damage instead.");
+
+static const u8 sTM314Desc[] = _(
+    "A consecutive three-kick attack\n"
+    "that becomes more powerful with\n"
+    "each successful hit.");
+
+static const u8 sTM315Desc[] = _(
+    "The user properly coaches its\n"
+    "ally Pokémon, boosting their\n"
+    "Attack and Defense stats.");
+
+static const u8 sTM316Desc[] = _(
+    "The user throws scorching sand\n"
+    "at the target to attack. This\n"
+    "may also leave the target with a burn.");
+
+static const u8 sTM317Desc[] = _(
+    "The user covers the foe with\n"
+    "a mass of down that sharply\n"
+    "lowers the Attack stat.");
+
+static const u8 sTM318Desc[] = _(
+    "The user attacks the target with\n"
+    "its psychic power. When the ground\n"
+    "is Psychic Terrain, this moves power\n"
+    "is boosted and it damages all opposing Pokémon.");
+
+static const u8 sTM319Desc[] = _(
+    "The user attacks with electricity\n"
+    "rising from the ground. This moves\n"
+    "power is doubled if the target is\n"
+    "on Electric Terrain.");
+
+static const u8 sTM320Desc[] = _(
+    "The user skitters behind the target\n"
+    "to attack. This also lowers the targets\n"
+    "Sp. Atk stat.");
+
+static const u8 sTM321Desc[] = _(
+    "The user gathers energy from\n"
+    "space and boosts its Sp. Atk\n"
+    "stat on the first turn, then\n"
+    "attacks on the next turn.");
+
+static const u8 sTM322Desc[] = _(
+    "A horrible sound like scraping\n"
+    "metal is emitted to sharply reduce\n"
+    "the foes Sp. Def stat.");
+
+static const u8 sTM323Desc[] = _(
+    "The target is crushed with an arm,\n"
+    "a claw, or the like to inflict damage.\n"
+    "The more HP the target has left, the\n"
+    "greater the moves power.");
+
+static const u8 sTM324Desc[] = _(
+    "The user raises its allies morale\n"
+    "with a draconic cry so that their\n"
+    "future attacks have a heightened chance\n"
+    "of landing critical hits. This rouses\n"
+    "Dragon types more.");
+
+static const u8 sTM325Desc[] = _(
+    "The user attacks the target using\n"
+    "its angelic voice. This also confuses\n"
+    "the target if its stats have been\n"
+    "boosted during the turn.");
+
+static const u8 sTM326Desc[] = _(
+    "The user attacks the target with\n"
+    "unpleasant sound waves. For two turns,\n"
+    "the target is prevented from recovering HP\n"
+    "through moves, Abilities, or held items.");
+
+static const u8 sTM327Desc[] = _(
+    "The user reacts to the target's\n"
+    "movement and strikes with the heel\n"
+    "of its palm, making the target flinch.\n"
+    "This move fails if the target is not readying\n"
+    "a priority move.");
+
+static const u8 sTM328Desc[] = _(
+    "The target is attacked with a\n"
+    "blast of absolute-zero cold.\n"
+    "The target faints instantly if\n"
+    "this attack hits.");
+
+static const u8 sTM329Desc[] = _(
+    "A vicious, tearing attack with pincers.\n"
+    "The foe will faint instantly if\n"
+    "this attack hits.");
+
+static const u8 sTM330Desc[] = _(
+    "The target is attacked with a\n"
+    "slash of claws or blades.\n"
+    "Critical hits land more easily.");
+
+static const u8 sTM331Desc[] = _(
+    "The user strikes the target with\n"
+    "tough punches as fast as bullets.\n"
+    "This move always goes first.");
+
+static const u8 sTM332Desc[] = _(
+    "This move enables the user to\n"
+    "attack first. It fails if the target\n"
+    "is not readying an attack, however.");
+
+static const u8 sTM333Desc[] = _(
+    "The user attacks the target with\n"
+    "a bursting flame. The bursting flame\n"
+    "damages Pokémon next to the target as well.");
+
+static const u8 sTM334Desc[] = _(
+    "The user expels pressurized water\n"
+    "to cut at the target like a blade.\n"
+    "This move has a heightened chance of\n"
+    "landing a critical hit.");
+
+static const u8 sTM335Desc[] = _(
+    "The user shrouds itself in water\n"
+    "and slams into the target with its\n"
+    "whole body to inflict damage. This\n"
+    "also damages the user quite a lot.");
+
+static const u8 sTM336Desc[] = _(
+    "This move can be used only after\n"
+    "the user has used all the other moves\n"
+    "it knows in the battle.");
+
+static const u8 sTM337Desc[] = _(
+    "Intimidates and frightens the\n"
+    "foe into paralysis.");
+
+static const u8 sTM338Desc[] = _(
+    "The user attacks everything around\n"
+    "it with the destructive power of a\n"
+    "terrible, explosive sound.");
+
+static const u8 sTM339Desc[] = _(
+    "The user attacks by harshly dropping\n"
+    "large icicles onto the target. This may\n"
+    "also make the target flinch.");
+
+static const u8 sTM340Desc[] = _(
+    "The user whips up a turbulent\n"
+    "whirlwind that ups the Speed of\n"
+    "all party Pokémon for four turns.");
+
+static const u8 sTM341Desc[] = _(
+    "The user strikes the target with\n"
+    "a fierce blow. This attack always\n"
+    "results in a critical hit.");
+
+static const u8 sTM342Desc[] = _(
+    "The user attacks the foe with\n"
+    "an uppercut thrown skyward with force.");
+
+static const u8 sTM343Desc[] = _(
+    "The user protects itself and\n"
+    "its allies from priority moves.");
+
+static const u8 sTM344Desc[] = _(
+    "The user and its allies are\n"
+    "protected from wide-ranging attacks\n"
+    "for one turn.");
+
+static const u8 sTM345Desc[] = _(
+    "An attack move that inflicts\n"
+    "double damage if used on a foe\n"
+    "that is switching out of battle.");
+
+static const u8 sTM346Desc[] = _(
+    "The target is attacked with a\n"
+    "shock wave. It may also leave\n"
+    "the target with paralysis.");
+
+static const u8 sTM347Desc[] = _(
+    "The user maximizes its Attack stat\n"
+    "in exchange for HP equal to half its max HP.");
+
+static const u8 sTM348Desc[] = _(
+    "The user throws a punch from the\n"
+    "shadows. The punch lands without fail.");
+
+static const u8 sTM349Desc[] = _(
+    "The user launches a hard-packed\n"
+    "mud ball to attack. This may also\n"
+    "lower the targets accuracy.");
+
+static const u8 sTM350Desc[] = _(
+    "The user smashes into the target in a\n"
+    "full-body tackle. This also lowers the users\n"
+    "defensive stats.");
+
+static const u8 sTM351Desc[] = _(
+    "The user swings and hits with its\n"
+    "strong and heavy fist. It lowers the\n"
+    "users Speed, however.");
+
+static const u8 sTM352Desc[] = _(
+    "The user uses its body like a\n"
+    "hammer to attack the target and\n"
+    "inflict damage.");
+
+static const u8 sTM353Desc[] = _(
+    "The user swings and hits with\n"
+    "its frozen, heavy fist. It lowers\n"
+    "the users Speed, however.");
+
+static const u8 sTM354Desc[] = _(
+    "The user slams its rugged body\n"
+    "into the target to attack. The user\n"
+    "also sustains serious damage.");
+
+static const u8 sTM355Desc[] = _(
+    "The target is hit with a hard punch\n"
+    "fired like a meteor. It may also raise\n"
+    "the users Attack.");
+
 const struct Item gItemsInfo[] =
 {
     [ITEM_NONE] =
@@ -453,14 +1942,9 @@ const struct Item gItemsInfo[] =
         .name = _("Dream Ball"),
         .price = 0,
         .description = COMPOUND_STRING(
-        #if B_DREAM_BALL_MODIFIER >= GEN_8
             "A Ball that works\n"
             "well on sleeping\n"
             "Pokémon."),
-        #else
-            "A Poké Ball used in\n"
-            "the Entree Forest."),
-        #endif
         .pocket = POCKET_POKE_BALLS,
         .type = ITEM_USE_BAG_MENU,
         .battleUsage = EFFECT_ITEM_THROW_BALL,
@@ -562,11 +2046,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
             "a Pokémon by\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "60 points."),
-        #else
-            "50 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -583,11 +2063,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
             "a Pokémon by\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "120 points."),
-        #else
-            "200 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -666,11 +2142,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A mineral water\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 30 points."),
-        #else
-            "by 50 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -687,11 +2159,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A fizzy soda drink\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 50 points."),
-        #else
-            "by 60 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -705,17 +2173,10 @@ const struct Item gItemsInfo[] =
         .name = _("Lemonade"),
         .price = (I_PRICE >= GEN_7) ? 400 : 350,
         .holdEffectParam = 70,
-#if I_HEALTH_RECOVERY >= GEN_7
         .description = COMPOUND_STRING(
             "A very sweet drink\n"
             "that restores HP\n"
             "by 70 points."),
-#else
-        .description = COMPOUND_STRING(
-            "A very sweet drink\n"
-            "that restores HP\n"
-            "by 80 points."),
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -750,11 +2211,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A bitter powder\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 60 points."),
-        #else
-            "by 50 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -770,11 +2227,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A bitter root\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 120 points."),
-        #else
-            "by 200 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -1364,7 +2817,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("AbilityPatch"),
         .pluralName = _("AbilityPatches"),
-        .price = (I_PRICE >= GEN_9) ? 250000 : 20,
+        .price = (I_PRICE >= GEN_9) ? 25000 : 20,
         .holdEffectParam = 0,
         .description = COMPOUND_STRING(
             "Turns the ability\n"
@@ -2014,15 +3467,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 1000 : 500,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises stat\n"
             "Attack during\n"
             "one battle."),
-        #else
-            "Raises the stat\n"
-            "Attack during one\n"
-            "battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2037,15 +3484,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 2000 : 550,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises stat\n"
             "Defense during\n"
             "one battle."),
-        #else
-            "Raises the stat\n"
-            "Defense during one\n"
-            "battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2060,15 +3501,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 1000 : 350,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises stat\n"
             "Sp. Atk during\n"
             "one battle."),
-        #else
-            "Raises the stat\n"
-            "Sp. Atk during one\n"
-            "battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2083,15 +3518,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 2000 : 350,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises stat\n"
             "Sp. Def during\n"
             "one battle."),
-        #else
-            "Raises the stat\n"
-            "Sp. Def during one\n"
-            "battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2106,15 +3535,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 1000 : 350,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises stat\n"
             "Speed during\n"
             "one battle."),
-        #else
-            "Raises the stat\n"
-            "Speed during one\n"
-            "battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2130,15 +3553,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_7) ? 1000 : 950,
         .holdEffectParam = X_ITEM_STAGES,
             .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises move\n"
             "accuracy during\n"
             "one battle."),
-        #else
-            "Raises accuracy\n"
-            "of attack moves\n"
-            "during one battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2265,7 +3682,7 @@ const struct Item gItemsInfo[] =
     [ITEM_NUGGET] =
     {
         .name = _("Nugget"),
-        .price = 10000 * TREASURE_FACTOR,
+        .price = 10000,
         .description = COMPOUND_STRING(
             "A nugget of pure\n"
             "gold. Can be sold at\n"
@@ -2279,7 +3696,7 @@ const struct Item gItemsInfo[] =
     [ITEM_BIG_NUGGET] =
     {
         .name = _("Big Nugget"),
-        .price = (I_PRICE >= GEN_7) ? (40000 * TREASURE_FACTOR) : 20000,
+        .price = 100000,
         .description = COMPOUND_STRING(
             "A big nugget made\n"
             "of gold, sellable\n"
@@ -2293,7 +3710,7 @@ const struct Item gItemsInfo[] =
     [ITEM_TINY_MUSHROOM] =
     {
         .name = _("Tiny Mushroom"),
-        .price = 500 * TREASURE_FACTOR,
+        .price = 500,
         .description = COMPOUND_STRING(
             "A plain mushroom\n"
             "that would sell\n"
@@ -2307,7 +3724,7 @@ const struct Item gItemsInfo[] =
     [ITEM_BIG_MUSHROOM] =
     {
         .name = _("Big Mushroom"),
-        .price = 5000 * TREASURE_FACTOR,
+        .price = 5000,
         .description = sBigMushroomDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2318,7 +3735,7 @@ const struct Item gItemsInfo[] =
     [ITEM_BALM_MUSHROOM] =
     {
         .name = _("Balm Mushroom"),
-        .price = (I_PRICE >= GEN_7) ? 15000 * TREASURE_FACTOR: 12500,
+        .price = 12500,
         .description = sBigMushroomDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2329,7 +3746,7 @@ const struct Item gItemsInfo[] =
     [ITEM_PEARL] =
     {
         .name = _("Pearl"),
-        .price = (I_PRICE >= GEN_7) ? 2000 * TREASURE_FACTOR: 1400,
+        .price = 14000,
         .description = COMPOUND_STRING(
             "A pretty pearl\n"
             "that would sell at a\n"
@@ -2343,7 +3760,7 @@ const struct Item gItemsInfo[] =
     [ITEM_BIG_PEARL] =
     {
         .name = _("Big Pearl"),
-        .price = (I_PRICE >= GEN_7) ? 8000 * TREASURE_FACTOR: 7500,
+        .price = 75000,
         .description = COMPOUND_STRING(
             "A lovely large pearl\n"
             "that would sell at a\n"
@@ -2357,7 +3774,7 @@ const struct Item gItemsInfo[] =
     [ITEM_PEARL_STRING] =
     {
         .name = _("Pearl String"),
-        .price = (I_PRICE >= GEN_8) ? 15000 * TREASURE_FACTOR: ((I_PRICE == GEN_7) ? 30000 : 15000),
+        .price = 30000,
         .description = COMPOUND_STRING(
             "Very large pearls\n"
             "that would sell at a\n"
@@ -2372,7 +3789,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Stardust"),
         .pluralName = _("Stardust"),
-        .price = (I_PRICE >= GEN_7) ? 3000 * TREASURE_FACTOR: 2000,
+        .price = 2000,
         .description = COMPOUND_STRING(
             "Beautiful red sand.\n"
             "Can be sold at a\n"
@@ -2386,7 +3803,7 @@ const struct Item gItemsInfo[] =
     [ITEM_STAR_PIECE] =
     {
         .name = _("Star Piece"),
-        .price = (I_PRICE >= GEN_7) ? 12000 * TREASURE_FACTOR: 9800,
+        .price = 12000,
         .description = COMPOUND_STRING(
             "A red gem shard.\n"
             "It would sell for a\n"
@@ -2400,7 +3817,7 @@ const struct Item gItemsInfo[] =
     [ITEM_COMET_SHARD] =
     {
         .name = _("Comet Shard"),
-        .price = (I_PRICE <= GEN_5) ? 0 : ((I_PRICE == GEN_6) ? 30000 : ((I_PRICE == GEN_7) ? 60000 : 25000 * TREASURE_FACTOR)),
+        .price = 30000,
         .description = COMPOUND_STRING(
             "A comet's shard.\n"
             "It would sell for a\n"
@@ -2443,7 +3860,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RED_SHARD] =
     {
         .name = _("Red Shard"),
-        .price = (I_PRICE >= GEN_7) ? 1000 : 200,
+        .price = 1000,
         .description = sShardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2454,7 +3871,7 @@ const struct Item gItemsInfo[] =
     [ITEM_BLUE_SHARD] =
     {
         .name = _("Blue Shard"),
-        .price = (I_PRICE >= GEN_7) ? 1000 : 200,
+        .price = 1000,
         .description = sShardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2465,7 +3882,7 @@ const struct Item gItemsInfo[] =
     [ITEM_YELLOW_SHARD] =
     {
         .name = _("Yellow Shard"),
-        .price = (I_PRICE >= GEN_7) ? 1000 : 200,
+        .price = 1000,
         .description = sShardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2476,7 +3893,7 @@ const struct Item gItemsInfo[] =
     [ITEM_GREEN_SHARD] =
     {
         .name = _("Green Shard"),
-        .price = (I_PRICE >= GEN_7) ? 1000 : 200,
+        .price = 1000,
         .description = sShardsDesc,
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -2502,7 +3919,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Honey"),
         .pluralName = _("Honey"),
-        .price = (I_PRICE < GEN_5) ? 100 : ((I_PRICE < GEN_8) ? 300 : 900),
+        .price = 100,
         .description = COMPOUND_STRING(
             "Sweet honey that\n"
             "attracts wild\n"
@@ -2516,7 +3933,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RARE_BONE] =
     {
         .name = _("Rare Bone"),
-        .price = (I_PRICE >= GEN_7) ? 5000 * TREASURE_FACTOR: 10000,
+        .price = 10000,
         .description = COMPOUND_STRING(
             "A very rare bone.\n"
             "It can be sold at\n"
@@ -2544,7 +3961,7 @@ const struct Item gItemsInfo[] =
     [ITEM_PRETTY_FEATHER] =
     {
         .name = _("PrettyFeather"),
-        .price = (I_PRICE >= GEN_7) ? 1000 * TREASURE_FACTOR: 200,
+        .price = 1000,
         .description = COMPOUND_STRING(
             "A beautiful yet\n"
             "plain feather that\n"
@@ -2558,7 +3975,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_COPPER] =
     {
         .name = _("Relic Copper"),
-        .price = 0,
+        .price = 50000,
         .description = COMPOUND_STRING(
             "A copper coin used\n"
             "long ago. It sells\n"
@@ -2572,7 +3989,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_SILVER] =
     {
         .name = _("Relic Silver"),
-        .price = 0,
+        .price = 75000,
         .description = COMPOUND_STRING(
             "A silver coin used\n"
             "long ago. It sells\n"
@@ -2586,7 +4003,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_GOLD] =
     {
         .name = _("Relic Gold"),
-        .price = 0,
+        .price = 1000000,
         .description = COMPOUND_STRING(
             "A gold coin used\n"
             "long ago. It sells\n"
@@ -2600,7 +4017,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_VASE] =
     {
         .name = _("Relic Vase"),
-        .price = 0,
+        .price = 100000,
         .description = COMPOUND_STRING(
             "A vase made long\n"
             "ago. It sells at\n"
@@ -2614,7 +4031,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_BAND] =
     {
         .name = _("Relic Band"),
-        .price = 0,
+        .price = 100000,
         .description = COMPOUND_STRING(
             "An old bracelet.\n"
             "It sells at a\n"
@@ -2628,7 +4045,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_STATUE] =
     {
         .name = _("Relic Statue"),
-        .price = 0,
+        .price = 1000000,
         .description = COMPOUND_STRING(
             "An old statue.\n"
             "It sells at a\n"
@@ -2642,7 +4059,7 @@ const struct Item gItemsInfo[] =
     [ITEM_RELIC_CROWN] =
     {
         .name = _("Relic Crown"),
-        .price = 0,
+        .price = 1000000,
         .description = COMPOUND_STRING(
             "An old crown.\n"
             "It sells at a\n"
@@ -2656,7 +4073,7 @@ const struct Item gItemsInfo[] =
     [ITEM_STRANGE_SOUVENIR] =
     {
         .name = _("StrngeSouvnr"),
-        .price = (I_PRICE >= GEN_7) ? 3000 : 10,
+        .price = 3000,
         .description = COMPOUND_STRING(
             "An ornament that\n"
             "depicts a Pokémon\n"
@@ -2676,14 +4093,9 @@ const struct Item gItemsInfo[] =
             "A piece of an\n"
             "ancient marine\n"
             "Pokémon's seashell."),
-        #if I_KEY_FOSSILS >= GEN_4
-            .price = (I_PRICE >= GEN_7) ? 7000: 1000,
-            .pocket = POCKET_ITEMS,
-        #else
-            .price = 0,
+            .price = 7000,
             .importance = 1,
             .pocket = POCKET_KEY_ITEMS,
-        #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2696,14 +4108,9 @@ const struct Item gItemsInfo[] =
             "A piece of an\n"
             "ancient marine\n"
             "Pokémon's shell."),
-        #if I_KEY_FOSSILS >= GEN_4
-            .price = (I_PRICE >= GEN_7) ? 7000: 1000,
-            .pocket = POCKET_ITEMS,
-        #else
-            .price = 0,
+            .price = 7000,
             .importance = 1,
             .pocket = POCKET_KEY_ITEMS,
-        #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2716,14 +4123,9 @@ const struct Item gItemsInfo[] =
             "A stone containing\n"
             "the genes of an\n"
             "ancient Pokémon."),
-        #if I_KEY_FOSSILS >= GEN_4
             .price = 1000,
-            .pocket = POCKET_ITEMS,
-        #else
-            .price = 0,
             .importance = 1,
             .pocket = POCKET_KEY_ITEMS,
-        #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2733,14 +4135,9 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Root Fossil"),
         .description = sRootFossilDesc,
-        #if I_KEY_FOSSILS >= GEN_4
-            .price = (I_PRICE >= GEN_7) ? 7000: 1000,
-            .pocket = POCKET_ITEMS,
-        #else
-            .price = 0,
+            .price = 7000,
             .importance = 1,
             .pocket = POCKET_KEY_ITEMS,
-        #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2750,14 +4147,9 @@ const struct Item gItemsInfo[] =
     {
         .name = _("Claw Fossil"),
         .description = sRootFossilDesc,
-        #if I_KEY_FOSSILS >= GEN_4
-            .price = (I_PRICE >= GEN_7) ? 7000: 1000,
-            .pocket = POCKET_ITEMS,
-        #else
-            .price = 0,
+            .price = 7000,
             .importance = 1,
             .pocket = POCKET_KEY_ITEMS,
-        #endif
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2766,12 +4158,13 @@ const struct Item gItemsInfo[] =
     [ITEM_ARMOR_FOSSIL] =
     {
         .name = _("Armor Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a\n"
             "prehistoric Poké-\n"
             "mon's head."),
-        .pocket = POCKET_ITEMS,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2780,12 +4173,13 @@ const struct Item gItemsInfo[] =
     [ITEM_SKULL_FOSSIL] =
     {
         .name = _("Skull Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a\n"
             "prehistoric Poké-\n"
             "mon's collar."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2794,12 +4188,13 @@ const struct Item gItemsInfo[] =
     [ITEM_COVER_FOSSIL] =
     {
         .name = _("Cover Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a\n"
             "prehistoric Poké-\n"
             "mon's back."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2808,12 +4203,13 @@ const struct Item gItemsInfo[] =
     [ITEM_PLUME_FOSSIL] =
     {
         .name = _("Plume Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a\n"
             "prehistoric Poké-\n"
             "mon's wing."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2822,12 +4218,13 @@ const struct Item gItemsInfo[] =
     [ITEM_JAW_FOSSIL] =
     {
         .name = _("Jaw Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a prehis-\n"
             "toric Pokémon's\n"
             "large jaw."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2836,12 +4233,13 @@ const struct Item gItemsInfo[] =
     [ITEM_SAIL_FOSSIL] =
     {
         .name = _("Sail Fossil"),
-        .price = (I_PRICE >= GEN_7) ? 7000: 1000,
+        .price = 7000,
         .description = COMPOUND_STRING(
             "A piece of a prehis-\n"
             "toric Pokémon's\n"
             "skin sail."),
-        .pocket = POCKET_ITEMS,
+        .pocket = POCKET_KEY_ITEMS,
+        .importance = 1,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
         .flingPower = 100,
@@ -2905,14 +4303,10 @@ const struct Item gItemsInfo[] =
         .name = _("Growth Mulch"),
         .pluralName = _("Growth Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "accelerates the\n"
             "growth of Berries."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2925,14 +4319,10 @@ const struct Item gItemsInfo[] =
         .name = _("Damp Mulch"),
         .pluralName = _("Damp Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "decelerates the\n"
             "growth of Berries."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2945,14 +4335,10 @@ const struct Item gItemsInfo[] =
         .name = _("Stable Mulch"),
         .pluralName = _("Stable Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the life time\n"
             "of Berry trees."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2965,14 +4351,10 @@ const struct Item gItemsInfo[] =
         .name = _("Gooey Mulch"),
         .pluralName = _("Gooey Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "makes more Berries\n"
             "regrow after fall."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -2985,14 +4367,10 @@ const struct Item gItemsInfo[] =
         .name = _("Rich Mulch"),
         .pluralName = _("Rich Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the number of\n"
             "Berries harvested."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3005,14 +4383,10 @@ const struct Item gItemsInfo[] =
         .name = _("SurprseMulch"),
         .pluralName = _("SurprseMulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the chance of\n"
             "Berry mutations."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3025,14 +4399,10 @@ const struct Item gItemsInfo[] =
         .name = _("Boost Mulch"),
         .pluralName = _("Boost Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer that\n"
             "ups the dry speed\n"
             "of soft soil."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3045,14 +4415,10 @@ const struct Item gItemsInfo[] =
         .name = _("Amaze Mulch"),
         .pluralName = _("Amaze Mulch"),
         .price = 200,
-#if OW_BERRY_MULCH_USAGE == TRUE
         .description = COMPOUND_STRING(
             "A fertilizer Rich\n"
             "Surprising and\n"
             "Boosting as well."),
-#else
-        .description = sGenericMulchDesc,
-#endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -3159,7 +4525,7 @@ const struct Item gItemsInfo[] =
         .price = 20,
         .description = COMPOUND_STRING(
             "Throw into a\n"
-            "{PKMN} Den to attract\n"
+            "PKMN Den to attract\n"
             "Dynamax Pokémon."),
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
@@ -6304,15 +7670,9 @@ const struct Item gItemsInfo[] =
         .holdEffect = HOLD_EFFECT_SOUL_DEW,
         .holdEffectParam = B_SOUL_DEW_BOOST >= GEN_7 ? 20 : 50,
         .description = COMPOUND_STRING(
-        #if B_SOUL_DEW_BOOST >= GEN_7
             "Powers up Latios' &\n"
             "Latias' Psychic and\n"
             "Dragon-type moves."),
-        #else
-            "Hold item: raises\n"
-            "Sp. Atk & Sp. Def of\n"
-            "Latios & Latias."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -7327,15 +8687,9 @@ const struct Item gItemsInfo[] =
         .price = (I_PRICE >= GEN_9) ? 10000 : ((I_PRICE >= GEN_7) ? 4000 : 100),
         .holdEffect = HOLD_EFFECT_MENTAL_HERB,
         .description = COMPOUND_STRING(
-        #if B_MENTAL_HERB >= GEN_5
             "Snaps Pokémon out\n"
             "of move-binding\n"
             "effects."),
-        #else
-            "A hold item that\n"
-            "snaps Pokémon out\n"
-            "of infatuation."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -9412,11 +10766,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "Fires an icy cold\n"
             "beam that may\n"
-        #if B_USE_FROSTBITE == TRUE
-            "give the foe frostbite."),
-        #else
             "freeze the foe."),
-        #endif
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -9431,11 +10781,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A brutal snow-and-\n"
             "wind attack that\n"
-        #if B_USE_FROSTBITE == TRUE
-            "may give the foe frostbite."),
-        #else
             "may freeze the foe."),
-        #endif
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -9987,7 +11333,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM51"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM51Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -9999,7 +11345,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM52"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM52Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10011,7 +11357,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM53"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM53Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10023,7 +11369,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM54"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM54Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10035,7 +11381,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM55"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM55Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10047,7 +11393,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM56"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM56Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10059,7 +11405,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM57"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM57Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10071,7 +11417,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM58"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM58Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10083,7 +11429,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM59"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM59Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10095,7 +11441,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM60"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM60Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10107,7 +11453,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM61"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM61Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10119,7 +11465,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM62"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM62Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10131,7 +11477,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM63"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM63Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10143,7 +11489,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM64"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM64Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10155,7 +11501,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM65"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM65Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10167,7 +11513,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM66"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM66Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10179,7 +11525,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM67"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM67Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10191,7 +11537,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM68"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM68Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10203,7 +11549,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM69"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM69Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10215,7 +11561,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM70"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM70Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10227,7 +11573,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM71"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM71Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10239,7 +11585,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM72"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM72Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10251,7 +11597,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM73"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM73Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10263,7 +11609,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM74"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM74Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10275,7 +11621,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM75"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM75Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10287,7 +11633,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM76"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM76Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10299,7 +11645,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM77"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM77Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10311,7 +11657,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM78"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM78Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10323,7 +11669,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM79"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM79Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10335,7 +11681,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM80"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM80Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10347,7 +11693,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM81"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM81Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10359,7 +11705,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM82"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM82Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10371,7 +11717,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM83"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM83Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10383,7 +11729,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM84"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM84Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10395,7 +11741,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM85"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM85Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10407,7 +11753,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM86"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM86Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10419,7 +11765,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM87"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM87Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10431,7 +11777,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM88"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM88Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10443,7 +11789,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM89"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM89Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10455,7 +11801,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM90"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM90Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10467,7 +11813,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM91"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM91Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10479,7 +11825,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM92"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM92Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10491,7 +11837,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM93"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM93Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10503,7 +11849,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM94"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM94Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10515,7 +11861,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM95"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM95Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10527,7 +11873,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM96"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM96Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10539,7 +11885,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM97"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM97Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10551,7 +11897,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM98"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM98Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10563,7 +11909,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM99"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM99Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -10575,7 +11921,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM100"),
         .price = 3000,
-        .description = sQuestionMarksDesc, // Todo
+        .description = sTM100Desc, // Todo
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -13155,7 +14501,7 @@ const struct Item gItemsInfo[] =
     {
         .name = _("TM315"),
         .price = 3000,
-        .description = sTM15Desc,
+        .description = sTM315Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
         .type = ITEM_USE_PARTY_MENU,
@@ -14164,11 +15510,11 @@ const struct Item gItemsInfo[] =
 
     [ITEM_POKEMON_BOX_LINK] =
     {
-        .name = _("{PKMN} Box Link"),
+        .name = _("PKMN Box Link"),
         .price = 0,
         .description = COMPOUND_STRING(
             "This device grants\n"
-            "access to the {PKMN}\n"
+            "access to the PKMN\n"
             "Storage System."),
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -15525,11 +16871,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A bitter powder\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 60 points."),
-        #else
-            "by 50 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -15545,11 +16887,7 @@ const struct Item gItemsInfo[] =
         .description = COMPOUND_STRING(
             "A bitter powder\n"
             "that restores HP\n"
-        #if I_HEALTH_RECOVERY >= GEN_7
             "by 120 points."),
-        #else
-            "by 200 points."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_Medicine,
@@ -15564,14 +16902,9 @@ const struct Item gItemsInfo[] =
         .price = 800,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises\n"
             "evasiveness during\n"
             "one battle."),
-        #else
-            "Raises evasiveness\n"
-            "during one battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -15584,14 +16917,9 @@ const struct Item gItemsInfo[] =
         .price = 400,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises\n"
             "defenses during\n"
             "one battle."),
-        #else
-            "Raises defenses\n"
-            "during one battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -15604,14 +16932,9 @@ const struct Item gItemsInfo[] =
         .price = 400,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises\n"
             "offenses during\n"
             "one battle."),
-        #else
-            "Raises offenses\n"
-            "during one battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
@@ -15624,15 +16947,9 @@ const struct Item gItemsInfo[] =
         .price = 1200,
         .holdEffectParam = X_ITEM_STAGES,
         .description = COMPOUND_STRING(
-        #if B_X_ITEMS_BUFF >= GEN_7
             "Sharply raises\n"
             "offenses & defenses\n"
             "during one battle."),
-        #else
-            "Raises offenses\n"
-            "and defenses during\n"
-            "one battle."),
-        #endif
         .pocket = POCKET_ITEMS,
         .type = ITEM_USE_BAG_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,

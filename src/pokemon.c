@@ -448,6 +448,7 @@ const s8 gNatureStatTable[NUM_NATURES][NUM_NATURE_STATS] =
 
 #include "data/pokemon/species_info.h"
 
+
 #define PP_UP_SHIFTS(val)           val,        (val) << 2,        (val) << 4,        (val) << 6
 #define PP_UP_SHIFTS_INV(val) (u8)~(val), (u8)~((val) << 2), (u8)~((val) << 4), (u8)~((val) << 6)
 
@@ -745,7 +746,7 @@ static const u32 sCompressedStatuses[] =
 // - The maximum form countdown.
 STATIC_ASSERT(NUM_SPECIES < (1 << 11), PokemonSubstruct0_species_TooSmall);
 STATIC_ASSERT(NUMBER_OF_MON_TYPES + 1 <= (1 << 5), PokemonSubstruct0_teraType_TooSmall);
-STATIC_ASSERT(ITEMS_COUNT < (1 << 10), PokemonSubstruct0_heldItem_TooSmall);
+STATIC_ASSERT(ITEMS_COUNT > (1 << 10), PokemonSubstruct0_heldItem_TooSmall);
 STATIC_ASSERT(MAX_LEVEL <= 100, PokemonSubstruct0_experience_PotentiallTooSmall); // Maximum of ~2 million exp.
 STATIC_ASSERT(LAST_BALL < (1 << 6), PokemonSubstruct0_pokeball_TooSmall);
 STATIC_ASSERT(MOVES_COUNT_ALL < (1 << 11), PokemonSubstruct1_moves_TooSmall);
@@ -5169,15 +5170,30 @@ bool8 TryIncrementMonLevel(struct Pokemon *mon)
 
 static const u16 sUniversalMoves[] =
 {
-    MOVE_BIDE,
-    MOVE_FRUSTRATION,
     MOVE_HIDDEN_POWER,
-    MOVE_MIMIC,
-    MOVE_NATURAL_GIFT,
-    MOVE_RAGE,
+    MOVE_PROTECT,
+    MOVE_FRUSTRATION,   
     MOVE_RETURN,
+    MOVE_DOUBLE_TEAM,
+    MOVE_FACADE,
     MOVE_SECRET_POWER,
+    MOVE_REST,
+    MOVE_ATTRACT,
+    MOVE_TAKE_DOWN,
+    MOVE_DOUBLE_EDGE,
+    MOVE_BIDE,
     MOVE_SUBSTITUTE,
+    MOVE_HEADBUTT,
+    MOVE_CURSE,
+    MOVE_SNORE,
+    MOVE_ENDURE,
+    MOVE_SWAGGER,
+    MOVE_SLEEP_TALK,
+    MOVE_CAPTIVATE,
+    MOVE_NATURAL_GIFT,
+    MOVE_ROUND,
+    MOVE_CONFIDE,
+    MOVE_HELPING_HAND,
     MOVE_TERA_BLAST,
 };
 

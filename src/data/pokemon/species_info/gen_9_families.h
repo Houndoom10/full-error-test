@@ -130,7 +130,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .eggGroups = { EGG_GROUP_FIELD, EGG_GROUP_GRASS },
         .abilities = { ABILITY_MAGICIAN, ABILITY_NONE, ABILITY_PROTEAN },
         .bodyColor = BODY_COLOR_GREEN,
-        .speciesName = _("Meowscarada"),
+        .speciesName = _("Meowscrada"),
         .cryId = CRY_MEOWSCARADA,
         .natDexNum = NATIONAL_DEX_MEOWSCARADA,
         .categoryName = _("Magician"),
@@ -5886,64 +5886,487 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
 #endif //P_FAMILY_FEZANDIPITI
 
 #if P_FAMILY_OGERPON
-#define OGERPON_SPECIES_INFO(Form, type, ability, color, tera)                          \
-    {                                                                                   \
-        .baseHP        = 80,                                                            \
-        .baseAttack    = 120,                                                           \
-        .baseDefense   = 84,                                                            \
-        .baseSpeed     = 110,                                                           \
-        .baseSpAttack  = 60,                                                            \
-        .baseSpDefense = 96,                                                            \
-        .types = { TYPE_GRASS, type },                                                  \
-        .catchRate = 5,                                                                 \
-        .expYield = 275,                                                                \
-        .evYield_Attack = 3,                                                            \
-        .genderRatio = MON_FEMALE,                                                      \
-        .eggCycles = 10,                                                                \
-        .friendship = STANDARD_FRIENDSHIP,                                              \
-        .growthRate = GROWTH_SLOW,                                                      \
-        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },    \
-        .abilities = { ability, ABILITY_NONE },                                         \
-        .bodyColor = color,                                                             \
-        .speciesName = _("Ogerpon"),                                                    \
-        .cryId = CRY_OGERPON,                                                           \
-        .natDexNum = NATIONAL_DEX_OGERPON,                                              \
-        .categoryName = _("Mask"),                                                      \
-        .height = 12,                                                                   \
-        .weight = 398,                                                                  \
-        .description = gOgerpon##Form##PokedexText,                                     \
-        .pokemonScale = 356,                                                            \
-        .pokemonOffset = 17,                                                            \
-        .trainerScale = 256,                                                            \
-        .trainerOffset = 0,                                                             \
-        FRONT_PIC(Ogerpon##Form, 64, 64),                                               \
-        .frontPicYOffset = 0,                                                           \
-        .frontAnimFrames = sAnims_Ogerpon,                                              \
-        BACK_PIC(Ogerpon##Form, 64, 64),                                                \
-        .backPicYOffset = 16,                                                           \
-        .palette = gMonPalette_Ogerpon##Form,                                           \
-        ICON(OgerponTealMask, 1),                                                       \
-        LEARNSETS(Ogerpon),                                                             \
-        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               \
-        .formChangeTable = sOgerponFormChangeTable,                                     \
-        .isLegendary = TRUE,                                                            \
-    }
+ [SPECIES_OGERPON_TEAL_MASK] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_DEFIANT, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GREEN,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "It battles by drawing out the type-based \n"
+            "energy contained within its masks."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponTealMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponTealMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponTealMask,
+        .shinyPalette = gMonShinyPalette_OgerponTealMask,
+        .iconSprite = gMonIcon_OgerponTealMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                               
         //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
         //.backAnimId = BACK_ANIM_NONE,
         //.shinyPalette = gMonShinyPalette_OgerponTealMask,
         //ICON(Ogerpon##Form##, 1),
-        //.footprint = gMonFootprint_Ogerpon,
+        //.footprint = gMonFootprint_Ogerpon,                 
+    },
 
-    [SPECIES_OGERPON_TEAL_MASK]             = OGERPON_SPECIES_INFO(TealMask,        TYPE_GRASS, ABILITY_DEFIANT,                   BODY_COLOR_GREEN, FALSE),
-    [SPECIES_OGERPON_WELLSPRING_MASK]       = OGERPON_SPECIES_INFO(WellspringMask,  TYPE_WATER, ABILITY_WATER_ABSORB,              BODY_COLOR_BLUE, FALSE),
-    [SPECIES_OGERPON_HEARTHFLAME_MASK]      = OGERPON_SPECIES_INFO(HearthflameMask, TYPE_FIRE,  ABILITY_MOLD_BREAKER,              BODY_COLOR_RED, FALSE),
-    [SPECIES_OGERPON_CORNERSTONE_MASK]      = OGERPON_SPECIES_INFO(CornerstoneMask, TYPE_ROCK,  ABILITY_STURDY,                    BODY_COLOR_GRAY, FALSE),
-#if P_TERA_FORMS
-    [SPECIES_OGERPON_TEAL_MASK_TERA]        = OGERPON_SPECIES_INFO(TealMask,        TYPE_GRASS, ABILITY_EMBODY_ASPECT_TEAL,        BODY_COLOR_GREEN, TRUE),
-    [SPECIES_OGERPON_WELLSPRING_MASK_TERA]  = OGERPON_SPECIES_INFO(WellspringMask,  TYPE_WATER, ABILITY_EMBODY_ASPECT_WELLSPRING,  BODY_COLOR_BLUE, TRUE),
-    [SPECIES_OGERPON_HEARTHFLAME_MASK_TERA] = OGERPON_SPECIES_INFO(HearthflameMask, TYPE_FIRE,  ABILITY_EMBODY_ASPECT_HEARTHFLAME, BODY_COLOR_RED, TRUE),
-    [SPECIES_OGERPON_CORNERSTONE_MASK_TERA] = OGERPON_SPECIES_INFO(CornerstoneMask, TYPE_ROCK,  ABILITY_EMBODY_ASPECT_CORNERSTONE, BODY_COLOR_GRAY, TRUE),
-#endif //P_TERA_FORMS
+    [SPECIES_OGERPON_WELLSPRING_MASK] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_WATER },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_WATER_ABSORB, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLUE,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of water.\n"
+            "It attacks unrelentingly with kicks and ivy strikes."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponWellspringMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponWellspringMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponWellspringMask,
+        .shinyPalette = gMonShinyPalette_OgerponWellspringMask,
+        .iconSprite = gMonIcon_OgerponWellspringMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                        
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                       
+    },
+
+    [SPECIES_OGERPON_HEARTHFLAME_MASK] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_FIRE },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_MOLD_BREAKER, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_RED,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of fire.\n"
+            "It spears its enemies with thorn-covered ivy."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponHearthflameMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponHearthflameMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponHearthflameMask,
+        .shinyPalette = gMonShinyPalette_OgerponHearthflameMask,
+        .iconSprite = gMonIcon_OgerponHearthflameMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                         
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                           
+    },
+
+    [SPECIES_OGERPON_CORNERSTONE_MASK] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_ROCK },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_STURDY, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GRAY,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of stone.\n"
+            "Its body is rock-solid, protecting it from\n"
+            "all manner of attacks."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponCornerstoneMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponCornerstoneMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponCornerstoneMask,
+        .shinyPalette = gMonShinyPalette_OgerponCornerstoneMask,
+        .iconSprite = gMonIcon_OgerponCornerstoneMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                      
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                            
+    },
+
+[SPECIES_OGERPON_TEAL_MASK_TERA] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_EMBODY_ASPECT_TEAL, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GREEN,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "It battles by drawing out the type-based \n"
+            "energy contained within its masks."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponTealMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponTealMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponTealMask,
+        .shinyPalette = gMonShinyPalette_OgerponTealMask,
+        .iconSprite = gMonIcon_OgerponTealMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                                 
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                 
+    },
+
+    [SPECIES_OGERPON_WELLSPRING_MASK_TERA] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_WATER },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_EMBODY_ASPECT_WELLSPRING, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_BLUE,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of water.\n"
+            "It attacks unrelentingly with kicks and ivy strikes."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponWellspringMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponWellspringMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponWellspringMask,
+        .shinyPalette = gMonShinyPalette_OgerponWellspringMask,
+        .iconSprite = gMonIcon_OgerponWellspringMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                           
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                       
+    },
+
+    [SPECIES_OGERPON_HEARTHFLAME_MASK_TERA] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_FIRE },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_EMBODY_ASPECT_HEARTHFLAME, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_RED,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of fire.\n"
+            "It spears its enemies with thorn-covered ivy."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponHearthflameMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponHearthflameMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponHearthflameMask,
+        .shinyPalette = gMonShinyPalette_OgerponHearthflameMask,
+        .iconSprite = gMonIcon_OgerponHearthflameMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                        
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                           
+    },
+
+    [SPECIES_OGERPON_CORNERSTONE_MASK_TERA] =
+    {
+        .baseHP        = 80,                                                            
+        .baseAttack    = 120,                                                           
+        .baseDefense   = 84,                                                            
+        .baseSpeed     = 110,                                                           
+        .baseSpAttack  = 60,                                                            
+        .baseSpDefense = 96,        
+        .types = { TYPE_GRASS, TYPE_ROCK },
+        .catchRate = 3,
+        .expYield = 278,
+        .evYield_SpDefense = 3,
+        .genderRatio = MON_FEMALE,
+        .eggCycles = 120,
+        .friendship = 0,
+        .growthRate = GROWTH_SLOW,
+        .eggGroups = { EGG_GROUP_NO_EGGS_DISCOVERED, EGG_GROUP_NO_EGGS_DISCOVERED },
+        .abilities = { ABILITY_EMBODY_ASPECT_CORNERSTONE, ABILITY_NONE },
+        .bodyColor = BODY_COLOR_GRAY,
+        .isLegendary = TRUE,
+        .speciesName = _("Ogerpon"),
+        .cryId = CRY_OGERPON,                                                           
+        .natDexNum = NATIONAL_DEX_OGERPON,                                              
+        .categoryName = _("Mask"),                                                      
+        .height = 12,                                                                   
+        .weight = 398,                                    
+        .description = COMPOUND_STRING(
+            "This mischief-loving Pokémon is full of \n"
+            "curiosity. It confounds enemies with \n"
+            "nimble movements and kicks. \n"
+            "In this form, it draws on the power of stone.\n"
+            "Its body is rock-solid, protecting it from\n"
+            "all manner of attacks."),
+        .pokemonScale = 356,
+        .pokemonOffset = 17,
+        .trainerScale = 256,
+        .trainerOffset = 0,
+        .frontPic = gMonFrontPic_OgerponCornerstoneMask,
+        .frontPicSize = MON_COORDS_SIZE(64, 64),
+        .frontPicYOffset = 2,
+        .frontAnimFrames = sAnims_Ogerpon,
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        .backPic = gMonBackPic_OgerponCornerstoneMask,
+        .backPicSize = MON_COORDS_SIZE(64, 64),
+        .backPicYOffset = 4,
+        //.backAnimId = BACK_ANIM_NONE,
+        .palette = gMonPalette_OgerponCornerstoneMask,
+        .shinyPalette = gMonShinyPalette_OgerponCornerstoneMask,
+        .iconSprite = gMonIcon_OgerponCornerstoneMask,
+        .iconPalIndex = 0,
+        .levelUpLearnset = sOgerponLevelUpLearnset,
+        .teachableLearnset = sOgerponTeachableLearnset,
+        .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               
+        .formChangeTable = sOgerponFormChangeTable,                                       
+        //.frontAnimId = ANIM_V_SQUISH_AND_BOUNCE,
+        //.backAnimId = BACK_ANIM_NONE,
+        //.shinyPalette = gMonShinyPalette_OgerponTealMask,
+        //ICON(Ogerpon##Form##, 1),
+        //.footprint = gMonFootprint_Ogerpon,                            
+    },
 
 #endif //P_FAMILY_OGERPON
 
@@ -5968,7 +6391,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .abilities = { ABILITY_PROTOSYNTHESIS, ABILITY_NONE, ABILITY_FLASH_FIRE },
         .bodyColor = BODY_COLOR_BROWN,
         .isParadoxForm = TRUE,
-        .speciesName = _("GougingFire"),
+        .speciesName = _("GougngFire"),
         .cryId = CRY_GOUGING_FIRE,
         .natDexNum = NATIONAL_DEX_GOUGING_FIRE,
         .categoryName = _("Paradox"),
@@ -6020,7 +6443,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .abilities = { ABILITY_PROTOSYNTHESIS, ABILITY_NONE, ABILITY_VOLT_ABSORB },
         .bodyColor = BODY_COLOR_YELLOW,
         .isParadoxForm = TRUE,
-        .speciesName = _("RagingBolt"),
+        .speciesName = _("RagngBolt"),
         .cryId = CRY_RAGING_BOLT,
         .natDexNum = NATIONAL_DEX_RAGING_BOLT,
         .categoryName = _("Paradox"),
@@ -6072,7 +6495,7 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .abilities = { ABILITY_QUARK_DRIVE, ABILITY_NONE, ABILITY_SHARPNESS },
         .bodyColor = BODY_COLOR_GRAY,
         .isParadoxForm = TRUE,
-        .speciesName = _("IronBoulder"),
+        .speciesName = _("IronBouldr"),
         .cryId = CRY_IRON_BOULDER,
         .natDexNum = NATIONAL_DEX_IRON_BOULDER,
         .categoryName = _("Paradox"),
